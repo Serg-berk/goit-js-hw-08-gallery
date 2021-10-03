@@ -44,3 +44,4 @@ function onEscKeyPress(event) {
     modal.classList.remove("is-open");
   }
 }
+
