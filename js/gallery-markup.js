@@ -34,6 +34,7 @@ function modalClose() {
   modal.classList.remove("is-open");
 }
  
+
 window.addEventListener('keydown', onEscKeyPress)
 
 function onEscKeyPress(event) {
@@ -45,3 +46,8 @@ function onEscKeyPress(event) {
   }
 }
 
+function clearSrcAlt(src = "", alt = "") {
+  modalImg.src = src;
+  modalImg.alt = alt;
+}
+clearSrcAlt();
